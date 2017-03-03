@@ -40,7 +40,6 @@ final class CoreDataStack {
                 , configurationName: nil, at: url
                 , options: [NSMigratePersistentStoresAutomaticallyOption: true, NSInferMappingModelAutomaticallyOption: true])
         } catch {
-            print("se cayó ptm")
             self.errorHandler(error)
         }
         return coordinator
@@ -60,6 +59,15 @@ final class CoreDataStack {
         return mainManagedObjectContext
     }()
     
+    var newContext: NSManagedObjectContext {
+        get {
+            let coordinator = self.persistentStoreCoordinator
+            let mainManagedObjectContext = NSManagedObjectContext(concurrencyType: .privateQueueConcurrencyType)
+            mainManagedObjectContext.persistentStoreCoordinator = coordinator
+            return mainManagedObjectContext
+        }
+    }
+    
     @objc func mainContextChanged(notification: NSNotification) {
         backgroundManagedObjectContext.perform {
             [unowned self] in
@@ -71,6 +79,14 @@ final class CoreDataStack {
         managedObjectContext.perform {
             [unowned self] in
             self.managedObjectContext.mergeChanges(fromContextDidSave: notification as Notification)
+        }
+    }
+    
+    func save(_ context:NSManagedObjectContext) {
+        do {
+            try context.save()
+        } catch let error as NSError {
+            fatalError(error.localizedDescription)
         }
     }
     

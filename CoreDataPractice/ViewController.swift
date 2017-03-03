@@ -14,10 +14,6 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let person = Person.create()
-        CoreDataStack.sharedStack.managedObjectContext.insert(person)
-        
-        
         
     }
 

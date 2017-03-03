@@ -13,23 +13,36 @@ import CoreData
 @objc(Person)
 public class Person: NSManagedObject {
 
-    class func create() -> Person {
-        let person = NSEntityDescription.insertNewObject(forEntityName: "Person", into: CoreDataStack.sharedStack.managedObjectContext) as! Person
+    @discardableResult
+    class func createOnContext(_ context: NSManagedObjectContext) -> Person {
+        let person = NSEntityDescription.insertNewObject(forEntityName: "Person", into: context) as! Person
         person.firstName = "Carlos"
         person.lastName = "Duclos"
         person.age = 26
         return person
     }
     
-    class func getAll() -> Array<Person> {
-        let request = NSFetchRequest<NSFetchRequestResult>(entityName: "Person")
-        var results = Array<Person>()
+    class func getAllFromContext(_ context: NSManagedObjectContext) -> [Person] {
+        let request:NSFetchRequest<Person> = Person.fetchRequest()
         do {
-            results = try CoreDataStack.sharedStack.managedObjectContext.execute(request)
+            let results:[Person] = try context.fetch(request)
+            return results
         } catch {
             fatalError("Failed to fetch people: \(error)")
         }
-        return results
+        return []
+    }
+    
+    class func deleteAllFromContext(_ context: NSManagedObjectContext) {
+        print(String(describing: Person.self))
+        let fetchRequest = NSFetchRequest<NSFetchRequestResult>(entityName: String(describing: Person.self))
+        let deleteRequest = NSBatchDeleteRequest(fetchRequest: fetchRequest)
+        do {
+            try context.execute(deleteRequest)
+//            try CoreDataStack.sharedStack.persistentStoreCoordinator.execute(deleteRequest, with: context)
+        } catch let error as NSError {
+            fatalError("Failed to fetch people: \(error)")
+        }
     }
     
 }
