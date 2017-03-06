@@ -34,15 +34,7 @@ public class Person: NSManagedObject {
     }
     
     class func deleteAllFromContext(_ context: NSManagedObjectContext) {
-        print(String(describing: Person.self))
-        let fetchRequest = NSFetchRequest<NSFetchRequestResult>(entityName: String(describing: Person.self))
-        let deleteRequest = NSBatchDeleteRequest(fetchRequest: fetchRequest)
-        do {
-            try context.execute(deleteRequest)
-//            try CoreDataStack.sharedStack.persistentStoreCoordinator.execute(deleteRequest, with: context)
-        } catch let error as NSError {
-            fatalError("Failed to fetch people: \(error)")
-        }
+        context.deleteAllForEntity(String(describing: Person.self))
     }
     
 }

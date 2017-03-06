@@ -24,4 +24,12 @@ extension NSManagedObjectContext {
         }
     }
     
+    func saveContext() {
+        do {
+            try self.save()
+        } catch let error as NSError {
+            fatalError(error.localizedDescription)
+        }
+    }
+    
 }

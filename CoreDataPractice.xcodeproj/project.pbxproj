@@ -7,19 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		359EDD531E6CEB6D0049FBB7 /* NSManagedObjectContext+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359EDD4B1E6CEB6D0049FBB7 /* NSManagedObjectContext+extension.swift */; };
+		359EDD541E6CEB6D0049FBB7 /* CoreDataPractice.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 359EDD4D1E6CEB6D0049FBB7 /* CoreDataPractice.xcdatamodeld */; };
+		359EDD551E6CEB6D0049FBB7 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359EDD4F1E6CEB6D0049FBB7 /* CoreDataStack.swift */; };
+		359EDD561E6CEB6D0049FBB7 /* CoreDataStackNew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359EDD501E6CEB6D0049FBB7 /* CoreDataStackNew.swift */; };
+		359EDD571E6CEB6D0049FBB7 /* Person+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359EDD511E6CEB6D0049FBB7 /* Person+CoreDataClass.swift */; };
+		359EDD581E6CEB6D0049FBB7 /* Person+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359EDD521E6CEB6D0049FBB7 /* Person+CoreDataProperties.swift */; };
 		35BD917F1E69056700741BF4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35BD917E1E69056700741BF4 /* AppDelegate.swift */; };
 		35BD91811E69056700741BF4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35BD91801E69056700741BF4 /* ViewController.swift */; };
 		35BD91841E69056700741BF4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35BD91821E69056700741BF4 /* Main.storyboard */; };
-		35BD91871E69056700741BF4 /* CoreDataPractice.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 35BD91851E69056700741BF4 /* CoreDataPractice.xcdatamodeld */; };
 		35BD91891E69056700741BF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35BD91881E69056700741BF4 /* Assets.xcassets */; };
 		35BD918C1E69056700741BF4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35BD918A1E69056700741BF4 /* LaunchScreen.storyboard */; };
 		35BD91971E69056700741BF4 /* CoreDataPracticeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35BD91961E69056700741BF4 /* CoreDataPracticeTests.swift */; };
 		35BD91A21E69056700741BF4 /* CoreDataPracticeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35BD91A11E69056700741BF4 /* CoreDataPracticeUITests.swift */; };
-		35BD91B01E690D6D00741BF4 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35BD91AF1E690D6D00741BF4 /* CoreDataStack.swift */; };
-		35BD91B21E6926B700741BF4 /* CoreDataStackNew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35BD91B11E6926B700741BF4 /* CoreDataStackNew.swift */; };
-		35BD91B91E692E2500741BF4 /* Person+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35BD91B71E692E2500741BF4 /* Person+CoreDataClass.swift */; };
-		35BD91BA1E692E2500741BF4 /* Person+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35BD91B81E692E2500741BF4 /* Person+CoreDataProperties.swift */; };
-		35E447D81E6A140600704855 /* NSManagedObjectContext+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E447D71E6A140600704855 /* NSManagedObjectContext+extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,11 +40,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		359EDD4B1E6CEB6D0049FBB7 /* NSManagedObjectContext+extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSManagedObjectContext+extension.swift"; sourceTree = "<group>"; };
+		359EDD4E1E6CEB6D0049FBB7 /* CoreDataPractice.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataPractice.xcdatamodel; sourceTree = "<group>"; };
+		359EDD4F1E6CEB6D0049FBB7 /* CoreDataStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		359EDD501E6CEB6D0049FBB7 /* CoreDataStackNew.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataStackNew.swift; sourceTree = "<group>"; };
+		359EDD511E6CEB6D0049FBB7 /* Person+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Person+CoreDataClass.swift"; sourceTree = "<group>"; };
+		359EDD521E6CEB6D0049FBB7 /* Person+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Person+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		359EDD591E6CF1B20049FBB7 /* CoreDataPractice 2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "CoreDataPractice 2.xcdatamodel"; sourceTree = "<group>"; };
 		35BD917B1E69056700741BF4 /* CoreDataPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreDataPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		35BD917E1E69056700741BF4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		35BD91801E69056700741BF4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		35BD91831E69056700741BF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		35BD91861E69056700741BF4 /* CoreDataPractice.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataPractice.xcdatamodel; sourceTree = "<group>"; };
 		35BD91881E69056700741BF4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		35BD918B1E69056700741BF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		35BD918D1E69056700741BF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -54,11 +60,6 @@
 		35BD919D1E69056700741BF4 /* CoreDataPracticeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreDataPracticeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		35BD91A11E69056700741BF4 /* CoreDataPracticeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataPracticeUITests.swift; sourceTree = "<group>"; };
 		35BD91A31E69056700741BF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		35BD91AF1E690D6D00741BF4 /* CoreDataStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
-		35BD91B11E6926B700741BF4 /* CoreDataStackNew.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataStackNew.swift; sourceTree = "<group>"; };
-		35BD91B71E692E2500741BF4 /* Person+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Person+CoreDataClass.swift"; sourceTree = "<group>"; };
-		35BD91B81E692E2500741BF4 /* Person+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Person+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		35E447D71E6A140600704855 /* NSManagedObjectContext+extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSManagedObjectContext+extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +87,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		359EDD4A1E6CEB6D0049FBB7 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				359EDD4B1E6CEB6D0049FBB7 /* NSManagedObjectContext+extension.swift */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		359EDD4C1E6CEB6D0049FBB7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				359EDD4D1E6CEB6D0049FBB7 /* CoreDataPractice.xcdatamodeld */,
+				359EDD4F1E6CEB6D0049FBB7 /* CoreDataStack.swift */,
+				359EDD501E6CEB6D0049FBB7 /* CoreDataStackNew.swift */,
+				359EDD511E6CEB6D0049FBB7 /* Person+CoreDataClass.swift */,
+				359EDD521E6CEB6D0049FBB7 /* Person+CoreDataProperties.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		35BD91721E69056600741BF4 = {
 			isa = PBXGroup;
 			children = (
@@ -109,18 +130,14 @@
 		35BD917D1E69056700741BF4 /* CoreDataPractice */ = {
 			isa = PBXGroup;
 			children = (
+				359EDD4A1E6CEB6D0049FBB7 /* Categories */,
+				359EDD4C1E6CEB6D0049FBB7 /* Model */,
 				35BD917E1E69056700741BF4 /* AppDelegate.swift */,
 				35BD91801E69056700741BF4 /* ViewController.swift */,
 				35BD91821E69056700741BF4 /* Main.storyboard */,
 				35BD918A1E69056700741BF4 /* LaunchScreen.storyboard */,
 				35BD918D1E69056700741BF4 /* Info.plist */,
 				35BD91881E69056700741BF4 /* Assets.xcassets */,
-				35BD91851E69056700741BF4 /* CoreDataPractice.xcdatamodeld */,
-				35BD91AF1E690D6D00741BF4 /* CoreDataStack.swift */,
-				35BD91B11E6926B700741BF4 /* CoreDataStackNew.swift */,
-				35BD91B71E692E2500741BF4 /* Person+CoreDataClass.swift */,
-				35BD91B81E692E2500741BF4 /* Person+CoreDataProperties.swift */,
-				35E447D71E6A140600704855 /* NSManagedObjectContext+extension.swift */,
 			);
 			path = CoreDataPractice;
 			sourceTree = "<group>";
@@ -280,14 +297,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				35BD91BA1E692E2500741BF4 /* Person+CoreDataProperties.swift in Sources */,
-				35E447D81E6A140600704855 /* NSManagedObjectContext+extension.swift in Sources */,
-				35BD91B91E692E2500741BF4 /* Person+CoreDataClass.swift in Sources */,
+				359EDD571E6CEB6D0049FBB7 /* Person+CoreDataClass.swift in Sources */,
 				35BD917F1E69056700741BF4 /* AppDelegate.swift in Sources */,
+				359EDD581E6CEB6D0049FBB7 /* Person+CoreDataProperties.swift in Sources */,
+				359EDD541E6CEB6D0049FBB7 /* CoreDataPractice.xcdatamodeld in Sources */,
 				35BD91811E69056700741BF4 /* ViewController.swift in Sources */,
-				35BD91B21E6926B700741BF4 /* CoreDataStackNew.swift in Sources */,
-				35BD91B01E690D6D00741BF4 /* CoreDataStack.swift in Sources */,
-				35BD91871E69056700741BF4 /* CoreDataPractice.xcdatamodeld in Sources */,
+				359EDD551E6CEB6D0049FBB7 /* CoreDataStack.swift in Sources */,
+				359EDD531E6CEB6D0049FBB7 /* NSManagedObjectContext+extension.swift in Sources */,
+				359EDD561E6CEB6D0049FBB7 /* CoreDataStackNew.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -563,12 +580,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		35BD91851E69056700741BF4 /* CoreDataPractice.xcdatamodeld */ = {
+		359EDD4D1E6CEB6D0049FBB7 /* CoreDataPractice.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				35BD91861E69056700741BF4 /* CoreDataPractice.xcdatamodel */,
+				359EDD591E6CF1B20049FBB7 /* CoreDataPractice 2.xcdatamodel */,
+				359EDD4E1E6CEB6D0049FBB7 /* CoreDataPractice.xcdatamodel */,
 			);
-			currentVersion = 35BD91861E69056700741BF4 /* CoreDataPractice.xcdatamodel */;
+			currentVersion = 359EDD591E6CF1B20049FBB7 /* CoreDataPractice 2.xcdatamodel */;
 			path = CoreDataPractice.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
