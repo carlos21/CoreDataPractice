@@ -7,12 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		357D2BAE1E8DE9320037D3EF /* NSManagedObject+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357D2BAD1E8DE9320037D3EF /* NSManagedObject+extension.swift */; };
+		357D2BCA1E8DEC870037D3EF /* Department+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357D2BC51E8DEC870037D3EF /* Department+CoreDataClass.swift */; };
+		357D2BCB1E8DEC870037D3EF /* Department+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357D2BC61E8DEC870037D3EF /* Department+CoreDataProperties.swift */; };
+		357D2BCC1E8DEC870037D3EF /* Employee+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357D2BC71E8DEC870037D3EF /* Employee+CoreDataClass.swift */; };
+		357D2BCD1E8DEC870037D3EF /* Employee+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357D2BC81E8DEC870037D3EF /* Employee+CoreDataProperties.swift */; };
+		357D2BCE1E8DEC870037D3EF /* Person+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357D2BC91E8DEC870037D3EF /* Person+CoreDataProperties.swift */; };
 		359EDD531E6CEB6D0049FBB7 /* NSManagedObjectContext+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359EDD4B1E6CEB6D0049FBB7 /* NSManagedObjectContext+extension.swift */; };
 		359EDD541E6CEB6D0049FBB7 /* CoreDataPractice.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 359EDD4D1E6CEB6D0049FBB7 /* CoreDataPractice.xcdatamodeld */; };
 		359EDD551E6CEB6D0049FBB7 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359EDD4F1E6CEB6D0049FBB7 /* CoreDataStack.swift */; };
 		359EDD561E6CEB6D0049FBB7 /* CoreDataStackNew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359EDD501E6CEB6D0049FBB7 /* CoreDataStackNew.swift */; };
 		359EDD571E6CEB6D0049FBB7 /* Person+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359EDD511E6CEB6D0049FBB7 /* Person+CoreDataClass.swift */; };
-		359EDD581E6CEB6D0049FBB7 /* Person+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359EDD521E6CEB6D0049FBB7 /* Person+CoreDataProperties.swift */; };
 		35BD917F1E69056700741BF4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35BD917E1E69056700741BF4 /* AppDelegate.swift */; };
 		35BD91811E69056700741BF4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35BD91801E69056700741BF4 /* ViewController.swift */; };
 		35BD91841E69056700741BF4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35BD91821E69056700741BF4 /* Main.storyboard */; };
@@ -40,12 +45,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		357D2BAD1E8DE9320037D3EF /* NSManagedObject+extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSManagedObject+extension.swift"; sourceTree = "<group>"; };
+		357D2BC51E8DEC870037D3EF /* Department+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Department+CoreDataClass.swift"; sourceTree = "<group>"; };
+		357D2BC61E8DEC870037D3EF /* Department+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Department+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		357D2BC71E8DEC870037D3EF /* Employee+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Employee+CoreDataClass.swift"; sourceTree = "<group>"; };
+		357D2BC81E8DEC870037D3EF /* Employee+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Employee+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		357D2BC91E8DEC870037D3EF /* Person+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Person+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		359EDD4B1E6CEB6D0049FBB7 /* NSManagedObjectContext+extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSManagedObjectContext+extension.swift"; sourceTree = "<group>"; };
 		359EDD4E1E6CEB6D0049FBB7 /* CoreDataPractice.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataPractice.xcdatamodel; sourceTree = "<group>"; };
 		359EDD4F1E6CEB6D0049FBB7 /* CoreDataStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
 		359EDD501E6CEB6D0049FBB7 /* CoreDataStackNew.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataStackNew.swift; sourceTree = "<group>"; };
 		359EDD511E6CEB6D0049FBB7 /* Person+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Person+CoreDataClass.swift"; sourceTree = "<group>"; };
-		359EDD521E6CEB6D0049FBB7 /* Person+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Person+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		359EDD591E6CF1B20049FBB7 /* CoreDataPractice 2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "CoreDataPractice 2.xcdatamodel"; sourceTree = "<group>"; };
 		35BD917B1E69056700741BF4 /* CoreDataPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreDataPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		35BD917E1E69056700741BF4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -91,6 +101,7 @@
 			isa = PBXGroup;
 			children = (
 				359EDD4B1E6CEB6D0049FBB7 /* NSManagedObjectContext+extension.swift */,
+				357D2BAD1E8DE9320037D3EF /* NSManagedObject+extension.swift */,
 			);
 			path = Categories;
 			sourceTree = "<group>";
@@ -99,10 +110,14 @@
 			isa = PBXGroup;
 			children = (
 				359EDD4D1E6CEB6D0049FBB7 /* CoreDataPractice.xcdatamodeld */,
+				357D2BC51E8DEC870037D3EF /* Department+CoreDataClass.swift */,
+				357D2BC61E8DEC870037D3EF /* Department+CoreDataProperties.swift */,
+				357D2BC71E8DEC870037D3EF /* Employee+CoreDataClass.swift */,
+				357D2BC81E8DEC870037D3EF /* Employee+CoreDataProperties.swift */,
+				357D2BC91E8DEC870037D3EF /* Person+CoreDataProperties.swift */,
+				359EDD511E6CEB6D0049FBB7 /* Person+CoreDataClass.swift */,
 				359EDD4F1E6CEB6D0049FBB7 /* CoreDataStack.swift */,
 				359EDD501E6CEB6D0049FBB7 /* CoreDataStackNew.swift */,
-				359EDD511E6CEB6D0049FBB7 /* Person+CoreDataClass.swift */,
-				359EDD521E6CEB6D0049FBB7 /* Person+CoreDataProperties.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -297,12 +312,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				357D2BCC1E8DEC870037D3EF /* Employee+CoreDataClass.swift in Sources */,
+				357D2BCD1E8DEC870037D3EF /* Employee+CoreDataProperties.swift in Sources */,
+				357D2BCA1E8DEC870037D3EF /* Department+CoreDataClass.swift in Sources */,
+				357D2BAE1E8DE9320037D3EF /* NSManagedObject+extension.swift in Sources */,
 				359EDD571E6CEB6D0049FBB7 /* Person+CoreDataClass.swift in Sources */,
 				35BD917F1E69056700741BF4 /* AppDelegate.swift in Sources */,
-				359EDD581E6CEB6D0049FBB7 /* Person+CoreDataProperties.swift in Sources */,
 				359EDD541E6CEB6D0049FBB7 /* CoreDataPractice.xcdatamodeld in Sources */,
+				357D2BCB1E8DEC870037D3EF /* Department+CoreDataProperties.swift in Sources */,
 				35BD91811E69056700741BF4 /* ViewController.swift in Sources */,
 				359EDD551E6CEB6D0049FBB7 /* CoreDataStack.swift in Sources */,
+				357D2BCE1E8DEC870037D3EF /* Person+CoreDataProperties.swift in Sources */,
 				359EDD531E6CEB6D0049FBB7 /* NSManagedObjectContext+extension.swift in Sources */,
 				359EDD561E6CEB6D0049FBB7 /* CoreDataStackNew.swift in Sources */,
 			);

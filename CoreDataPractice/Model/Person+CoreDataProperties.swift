@@ -2,13 +2,13 @@
 //  Person+CoreDataProperties.swift
 //  CoreDataPractice
 //
-//  Created by Carlos Duclos on 3/2/17.
+//  Created by Carlos Duclos on 3/30/17.
 //  Copyright © 2017 Carlos Duclos. All rights reserved.
-//  This file was automatically generated and should not be edited.
 //
 
 import Foundation
 import CoreData
+
 
 extension Person {
 
@@ -16,8 +16,8 @@ extension Person {
         return NSFetchRequest<Person>(entityName: "Person");
     }
 
+    @NSManaged public var age: Int16
     @NSManaged public var firstName: String?
     @NSManaged public var lastName: String?
-    @NSManaged public var age: Int16
 
 }

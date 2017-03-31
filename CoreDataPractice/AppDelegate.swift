@@ -16,6 +16,27 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+        let dir = CoreDataStack.sharedStack.libraryDirectory
+        print("\(dir.path)")
+        
+        let context = CoreDataStack.sharedStack.managedObjectContext
+        let person1 = Person.createOnContext(context)
+        person1.firstName = "Person 1"
+        person1.lastName = "Person 1"
+        person1.age = 26
+        
+        let person2 = Person.createOnContext(context)
+        person2.firstName = "Person 2"
+        person2.lastName = "Person 2"
+        person2.age = 28
+        
+        let employee1 = Employee.createOnContext(context)
+        employee1.firstName = "Employee 1"
+        employee1.lastName = "Employee 1"
+        employee1.age = 28
+        
+        context.saveContext()
+        
         
         return true
     }
